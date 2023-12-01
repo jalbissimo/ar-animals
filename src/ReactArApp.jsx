@@ -17,13 +17,20 @@ export default function ReactArApp() {
 				parameters={{
 					preset: "pattern",
 					type: "pattern",
-					patternUrl: "https://raw.githubusercontent.com/lbelfield/augmented-reality/master/src/components/trainTicket/train-ticket.patt",
-					url: "https://raw.githubusercontent.com/lbelfield/augmented-reality/master/src/components/trainTicket/train-ticket.patt",
+					patternUrl: "https://raw.githubusercontent.com/jalbissimo/ar-animals/master/src/assets/pattern-fox.patt",
+					url: "https://raw.githubusercontent.com/jalbissimo/ar-animals/master/src/assets/pattern-fox.patt",
 				}}
 			>
 				<a-gltf-model src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Fox/glTF/Fox.gltf" rotation={"0 0" + increment} scale="0.01 0.01 0.01"></a-gltf-model>
 			</Marker>
-			<Marker parameters={{ preset: "kanji" }}>
+			<Marker
+				parameters={{
+					preset: "pattern",
+					type: "pattern",
+					patternUrl: "https://raw.githubusercontent.com/jalbissimo/ar-animals/master/src/assets/pattern-duck.patt",
+					url: "https://raw.githubusercontent.com/jalbissimo/ar-animals/master/src/assets/pattern-duck.patt",
+				}}
+			>
 				<a-entity>
 					<a-gltf-model src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF/Duck.gltf" rotation={"0 0" + increment} scale="1 1 1"></a-gltf-model>
 				</a-entity>
